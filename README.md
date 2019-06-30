@@ -1,20 +1,20 @@
 Questions
-1. What is the difference between HTTP and HTTPS?
+**1. What is the difference between HTTP and HTTPS?**
   ANSWER: HTTP stands for Hypertext Transfer Protocol and in HTTPS the 'S' in the end stands for 'Secure'. So, transfering data using HTTPS is more secure.
 
-2. What is the difference between HTTP GET and POST?
+**2. What is the difference between HTTP GET and POST?**
   ANSWER: GET request fetches some data from the server, while post request sends some data to the server (for example, data from the form that user filled it)
 
-3. What is the difference between the HTTP 2xx status codes and 4xx status codes?
+**3. What is the difference between the HTTP 2xx status codes and 4xx status codes?**
   ANSWER: Response header with 2xx status code means that there are no mistakes. Response with 4xx status code means that there was some error (for example, 404 'Not Found')
 
-4. What is ajax (conceptually, what does it do)? Discribe a situation where it is useful.
+**4. What is ajax (conceptually, what does it do)? Discribe a situation where it is useful.**
   ANSWER: AJAX stands for Asynchronous Javascript. Ajax requests are usually requests to the server-side or to some external API. Those requests are executed in the end of the event loop. The best way to work with Ajax requests is utilizing Promises. Ajax requests take quite a long time to execute (compared to requests to, for example, cache or hard drive), so it is a good practice to display a loading ring when waiting for the response by utilizing promises.
 
-5. What is responsive design?
+**5. What is responsive design?**
   ANSWER: Responsive design means that the app works on any screen size.
 
-6. What is the difference between these 3 CSS rules?
+**6. What is the difference between these 3 CSS rules?**
   Set the background color on a 'div' element
   div{background: #fff}
   Set the background color on an element with an id="div"
@@ -22,7 +22,7 @@ Questions
   Set the background color on an element with a class="div"
   .div{background: #fff}
 
-7. What is the difference between these 2 uses of the <script> tag?
+**7. What is the difference between these 2 uses of the <script> tag?**
   Load Javascript from external file:
   <script src="http://example.com/whatever.js></script>
 
