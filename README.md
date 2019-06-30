@@ -9,7 +9,7 @@ Questions\
   ANSWER: Response header with 2xx status code means that there are no mistakes. Response with 4xx status code means that there was some error (for example, 404 'Not Found')
 
 **4. What is ajax (conceptually, what does it do)? Discribe a situation where it is useful.**\
-  ANSWER: AJAX stands for Asynchronous Javascript. Ajax requests are usually requests to the server-side or to some external API. Those requests are executed in the end of the event loop. The best way to work with Ajax requests is utilizing Promises. Ajax requests take quite a long time to execute (compared to requests to, for example, cache or hard drive), so it is a good practice to display a loading ring when waiting for the response by utilizing promises.
+  ANSWER: AJAX stands for Asynchronous Javascript. Ajax requests are usually requests to the server-side or to some external API. Those requests are executed in the end of the event loop. The best way to work with Ajax requests is utilizing Promises. Ajax requests take quite a long time to execute, so it is a good practice to display a loading ring when waiting for the response by utilizing promises.
 
 **5. What is responsive design?**\
   ANSWER: Responsive design means that the app works on any screen size.
