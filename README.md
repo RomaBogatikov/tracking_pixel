@@ -30,15 +30,15 @@ Questions\
   ```<script>var whatever = true</script>```
 
   **8. What is the difference between these two javascript snippets?**\
-    In this case function executes and returns value 2, that is assigned to variable x:
-    ```var x=function(){return 1+1;}();```
+  In this case function executes and returns value 2, that is assigned to variable x:\
+  ```var x=function(){return 1+1;}();```
 
-    This is a function expression:
-    ```var y=function(){return 1+1;}```
+  This is a function expression:
+  ```var y=function(){return 1+1;}```
 
-    **PRACTICAL:**\
+  **PRACTICAL:**\
 
-    **1. Write HTML/CSS to draw the following scene:**\
+  **1. Write HTML/CSS to draw the following scene:**\
 
 
   ```
