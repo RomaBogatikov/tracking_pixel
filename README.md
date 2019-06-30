@@ -31,14 +31,14 @@ Questions\
 
   **8. What is the difference between these two javascript snippets?**\
   In this case function executes and returns value 2, that is assigned to variable x:\
-  ```var x=function(){return 1+1;}();```
+  ```var x = function(){return 1+1;}();```
 
   This is a function expression:
-  ```var y=function(){return 1+1;}```
+  ```var y = function(){return 1+1;}```
 
-  **PRACTICAL:**\
+  **PRACTICAL:**
 
-  **1. Write HTML/CSS to draw the following scene:**\
+  **1. Write HTML/CSS to draw the following scene:**
 
 
   ```
@@ -84,8 +84,8 @@ Questions\
     </html>
 ```
 
-**2. You have started analytics company with the domain“hashtag­-analytics.com.You provide this tracking pixel for your customers to place on their websites.By summing the number of times the pixel was loaded,you calculate the number of visitors to each site.\
-As it stands,this pixel has a problem because it will be cached by the browser.
+**2. You have started analytics company with the domain“hashtag­-analytics.com.You provide this tracking pixel for your customers to place on their websites.By summing the number of times the pixel was loaded,you calculate the number of visitors to each site.**\
+As it stands,this pixel has a problem because it will be cached by the browser.\
 **a.Why is caching a problem for the analytics company?**\
   ANSWER: Because if the pixel is cached, the analytics company will no longer know how many times it was loaded (because the browser loads cache first)
 
@@ -98,17 +98,17 @@ As it stands,this pixel has a problem because it will be cached by the browser.
   ANSWER: (https://www.admonsters.com/pixel-delivery-best-practices/)\
   The tracking pixel will most likely not be sent.\
   **How could you modify the tracking pixel to fix that?**\
-  ANSWER: <img src=”https://hashtag­analytics.com/12345/pixel.gif” width=”1” height=”1”/>\
+  ANSWER: ```<img src=”https://hashtag­analytics.com/12345/pixel.gif” width=”1” height=”1”/>```\
   Or some logic to construct 'src' attribute can be implemented based on value of location.protocol
 
 **d.List some information the tracking company could collect (ex:IPaddress)**
-  ANSWER: (source: https://en.ryte.com/wiki/Tracking_Pixel)\
-  - Operating system used (gives information on the use of mobile devices)\
-  - Type of website or email used, for example on mobile or desktop\
-  - Type of client used, for example a browser or mail program.\
-  - Client’s screen resolution\
-  - Time the email was read or website was visited\
-  - Activities on the website during a session (when using multiple tracking pixels)\
+  ANSWER: (source: https://en.ryte.com/wiki/Tracking_Pixel)
+  - Operating system used (gives information on the use of mobile devices)
+  - Type of website or email used, for example on mobile or desktop
+  - Type of client used, for example a browser or mail program.
+  - Client’s screen resolution
+  - Time the email was read or website was visited
+  - Activities on the website during a session (when using multiple tracking pixels)
 **e.List some additional information(if any)that could be collected if a <script> tag is used instead of an <img> tag.**
   the screen resolution, plugins used, support of certain technologies by the browser, etc.
 
