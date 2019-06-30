@@ -20,7 +20,7 @@ Questions\
   Set the background color on an element with an id="div"\
   #div{background: #fff}\
   Set the background color on an element with a class="div"\
-  .div{background: #fff}\
+  .div{background: #fff}
 
 **7. What is the difference between these 2 uses of the <script> tag?**\
   Load Javascript from external file:\
@@ -30,12 +30,11 @@ Questions\
   ```<script>var whatever = true</script>```
 
   **8. What is the difference between these two javascript snippets?**\
-    In this case function executes and returns value 2, that is assigned to variable x:\
-    var x=function(){return 1+1;}();\
+    In this case function executes and returns value 2, that is assigned to variable x:
+    ```var x=function(){return 1+1;}();```
 
-    This is a function expression:\
-    var y=function(){return 1+1;}\
-
+    This is a function expression:
+    ```var y=function(){return 1+1;}```
 
     **PRACTICAL:**\
 
