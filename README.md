@@ -109,11 +109,12 @@ As it stands,this pixel has a problem because it will be cached by the browser.\
   - Client’s screen resolution
   - Time the email was read or website was visited
   - Activities on the website during a session (when using multiple tracking pixels)\
+
 **e.List some additional information(if any)that could be collected if a <script> tag is used instead of an <img> tag.**\
   the screen resolution, plugins used, support of certain technologies by the browser, etc.
 
 
-3. Harder!\
+**3. Harder!**\
   The following image tag appears somewhere on some webpage.The rest of the page is valid HTML, but otherwise unknown.\
   ```<img id=”myimage” src=”​http://hashtag­analytics.com/myimage.jpg​” width=”300”height=”250”/>```
   Write CODE in plain javascript to do the following (jQuery is fine too,if you prefer):Every 2 seconds:­Check whether the image is viewable\
