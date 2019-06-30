@@ -100,7 +100,7 @@ c.What will happen if the customer’s website is served over HTTPS?
   The tracking pixel will most likely not be sent.
   How could you modify the tracking pixel to fix that?
   ANSWER: <img src=”https://hashtag­analytics.com/12345/pixel.gif” width=”1” height=”1”/>
-  Or some logic to construct 'src' attribute can be implemented based on location.protocol
+  Or some logic to construct 'src' attribute can be implemented based on value of location.protocol
 
 d.List some information the tracking company could collect (ex:IPaddress)
   ANSWER: (source: https://en.ryte.com/wiki/Tracking_Pixel)
