@@ -95,7 +95,7 @@ As it stands,this pixel has a problem because it will be cached by the browser.\
   Another option is to change the filename of the image (for example, embed a version number of the file) and force the user to download a new image.
 
 **c.What will happen if the customer’s website is served over HTTPS?**\
-  ANSWER: (https://www.admonsters.com/pixel-delivery-best-practices/)\
+  ANSWER: (source: https://www.admonsters.com/pixel-delivery-best-practices/)\
   The tracking pixel will most likely not be sent.\
   **How could you modify the tracking pixel to fix that?**\
   ANSWER: ```<img src=”https://hashtag­analytics.com/12345/pixel.gif” width=”1” height=”1”/>```\
