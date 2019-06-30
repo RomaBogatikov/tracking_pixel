@@ -101,7 +101,7 @@ As it stands,this pixel has a problem because it will be cached by the browser.\
   ANSWER: ```<img src=”https://hashtag­analytics.com/12345/pixel.gif” width=”1” height=”1”/>```\
   Or some logic to construct 'src' attribute can be implemented based on value of location.protocol
 
-**d.List some information the tracking company could collect (ex:IPaddress)**
+**d.List some information the tracking company could collect (ex:IPaddress)**\
   ANSWER: (source: https://en.ryte.com/wiki/Tracking_Pixel)
   - Operating system used (gives information on the use of mobile devices)
   - Type of website or email used, for example on mobile or desktop
